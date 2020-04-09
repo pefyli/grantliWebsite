@@ -1,0 +1,685 @@
+@import './reset.css';
+
+button{
+  border:0;
+  height: 40px;
+  width: 80px;
+  background-color:#5499C7;
+  color:#fff;
+  border-radius:10px;
+  cursor:pointer;
+  float: right;
+}
+
+.loginbtn{
+  border:0;
+  height: 40px;
+  width: 80px;
+  background-color:#5499C7;
+  color:#fff;
+  border-radius:10px;
+  cursor:pointer;
+  margin-right:15px;
+}
+
+button:hover{
+  color:#003C9D;
+  background-color:#fff;
+  border:2px #003C9D solid;
+}
+
+@media only screen and (min-width: 769px) {
+body{
+    background-color:#E6F8E0;
+    overflow-x: hidden;
+  }
+.photo{
+    width: 280px;
+    height: 200px;
+}
+.titlebar{
+  position: absolute;
+  right: 0;
+}
+.btn_container{
+  position: absolute;
+  right: 0;
+}
+.about_img{
+  width: 50%;
+  height: 50%;
+}
+.aboutContent{
+ font-size: 20px;
+}
+.aboutDiv{
+  text-align: center;
+}
+.container div{
+   display: inline-block;
+ }
+ .menu {
+     font-family: 'GenYoRegular';
+     height: 100vh;
+     width: 280px;
+     background-color:#E6E6E6;
+     float: left;
+     position: fixed;
+ }
+
+.menu .title .min_picture {
+     width: 100px;
+     border-radius: 50%;
+ }
+
+.menu ul li {
+    padding: 10px 30px;
+    transition: 0.25s;
+}
+
+.menu ul li:hover {
+    background-color: #666666;
+    color:#FFFFFF;
+}
+
+.menu ul li a:hover{
+  color:#FFFFFF;
+}
+
+ .content {
+     width: 100vw;
+     height: 100%;
+ }
+
+  .title {
+
+     width: 100%;
+     height: 100px;
+     background: url('../../src/assets/887.jpg') no-repeat;
+     background-size:cover;
+
+ }
+
+ .title div{
+   display: inline-block;
+ }
+
+ .menu .link{
+   width: 100%;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+ }
+
+ .menu .link div {
+     height: 50px;
+     width: 50px;
+     display: inline-block;
+ }
+
+ .menu .link .fb {
+     background: url('../../src/assets/facebook.png') no-repeat;
+     background-size: auto 33px;
+     margin-left: 20px
+ }
+ .menu .link .fb:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/facebook.png') no-repeat;
+     background-size: auto 40px;
+}
+
+
+ .menu .link .github {
+     background: url('../../src/assets/github.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .github:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/github.png') no-repeat;
+     background-size: auto 40px;
+}
+
+ .menu .link .linkedin {
+     background: url('../../src/assets/linkedin.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .linkedin:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/linkedin.png') no-repeat;
+     background-size: auto 40px;
+}
+ .menu .link .gmail {
+     background: url('../../src/assets/gmail.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .gmail:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/gmail.png') no-repeat;
+     background-size: auto 40px;
+}
+
+.liststyle{
+  height: 30px;
+  padding: 15px;
+  margin-top:15px;
+}
+.content{
+  font-family: 'GenYoRegular';
+}
+.content .banner {
+     margin-left:280px;
+     width: 100%;
+     height: 200px;
+     background: url('../../src/assets/bar.jpg') center center fixed no-repeat;
+     background-size:cover;
+ }
+
+.content .banner div {
+      display: inline-block;
+ }
+
+.intro{
+   font-size: 30px;
+   margin-right:29px;
+ }
+.introduction{
+   font-size:15px;
+   margin-top:8px;
+   margin-bottom:6px
+}
+
+.content .banner .picture .bar_picture {
+     margin-top:30px;
+     margin-left: 50px;
+     width:150px;
+     border-radius: 50%;
+ }
+
+a {
+  text-decoration: none;
+  color: #000000
+}
+
+.router-link-active {
+  text-decoration: none;
+}
+
+.contentdiv{
+  position: relative;
+  width: 75%;
+  height: 100%;
+  margin-left:350px;
+  padding-left:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.contentdiv ul li {
+    padding: 20px 50px 15px ;
+    transition: 0.25s;
+}
+
+.contentdiv ul li div{
+  display: inline-block;
+}
+
+
+.company{
+   widows: 50px;
+   height: 50px;
+}
+
+.home
+{
+  width:50vw;
+  height: 100vh;
+
+}
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+body{
+    background-color:#E6F8E0;
+    overflow-x: hidden;
+  }
+.photo{
+    width: 230px;
+    height: 150px;
+}
+.titlebar{
+    position: absolute;
+    right: 0;
+}
+.btn_container{
+    position: absolute;
+    right: 0;
+}
+.about_img{
+    width: 50%;
+    height: 50%;
+}
+.aboutDiv{
+    text-align: center;
+    width: 450px;
+    height: 400px;
+}
+.aboutContent{
+  text-align: center;
+  padding: 10px;
+  display:flex;
+  align-items:center;
+  margin: auto;
+  justify-content:center;
+  width:200px;
+  height:150px;
+  border:1px solid #000;
+}
+.container div{
+   display: inline-block;
+ }
+ .menu {
+     font-family: 'GenYoRegular';
+     background-color:#E6E6E6;
+     width: 100%;
+     height: auto;
+     position: relative;
+ }
+
+.menu .title .min_picture {
+     width: 100px;
+     border-radius: 50%;
+ }
+
+.menu ul li {
+    padding: 10px 30px;
+    transition: 0.25s;
+}
+
+.menu ul li:hover {
+    background-color: #666666;
+    color:#FFFFFF;
+}
+
+.menu ul li a:hover{
+  color:#FFFFFF;
+}
+.content {
+     width: 100vw;
+     height: 100%;
+ }
+
+  .title {
+
+     width: 100%;
+     height: 100px;
+     background: url('../../src/assets/887.jpg') no-repeat;
+     background-size:cover;
+
+ }
+
+ .title div{
+   display: inline-block;
+ }
+
+ .intro{
+   font-size: 20px;
+   margin-right:29px;
+   margin-top:25px
+ }
+.introduction{
+   font-size:15px;
+   margin-top:5px
+}
+
+
+ .menu .link{
+   width: 100%;
+   position: relative;
+   margin-top:25px;
+   left: 0;
+   bottom: 0;
+ }
+
+ .menu .link div {
+     height: 50px;
+     width: 50px;
+     display: inline-block;
+ }
+
+ .menu .link .fb {
+     background: url('../../src/assets/facebook.png') no-repeat;
+     background-size: auto 33px;
+     margin-left: 20px
+ }
+ .menu .link .fb:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/facebook.png') no-repeat;
+     background-size: auto 40px;
+}
+
+
+ .menu .link .github {
+     background: url('../../src/assets/github.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .github:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/github.png') no-repeat;
+     background-size: auto 40px;
+}
+
+ .menu .link .linkedin {
+     background: url('../../src/assets/linkedin.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .linkedin:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/linkedin.png') no-repeat;
+     background-size: auto 40px;
+}
+ .menu .link .gmail {
+     background: url('../../src/assets/gmail.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .gmail:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/gmail.png') no-repeat;
+     background-size: auto 40px;
+}
+
+.liststyle{
+  height: 30px;
+  padding: 15px;
+  margin-top:15px;
+}
+.content{
+  font-family: 'GenYoRegular';
+}
+.content .banner {
+     width: 100%;
+     height: 200px;
+     background: url('../../src/assets/bar.jpg') center center fixed no-repeat;
+     background-size:cover;
+ }
+
+.content .banner div {
+      display: inline-block;
+ }
+.content .banner .picture .bar_picture {
+     margin-top:30px;
+     margin-left: 20px;
+     width:130px;
+     border-radius: 50%;
+ }
+
+a {
+  text-decoration: none;
+  color: #000000
+}
+
+.router-link-active {
+  text-decoration: none;
+}
+
+.contentdiv{
+  position: relative;
+  margin-left:10px;
+  padding-left:20px;
+  width: 90%;
+  height: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.contentdiv ul li {
+    padding: 30px 50px 30px ;
+    transition: 0.25s;
+}
+
+.contentdiv ul li div{
+  display: inline-block;
+}
+
+
+.company{
+   widows: 50px;
+   height: 50px;
+}
+
+.home
+{
+  width:95%;
+  height: 100vh;
+
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+  body{
+    background-color:#E6F8E0;
+    overflow-x: hidden;
+  }
+  .photo{
+    width: 180px;
+    height: 100px;
+  }
+  .titlebar{
+    position: absolute;
+    right: 0;
+  }
+  .btn_container{
+    position: absolute;
+    right: 0;
+  }
+  .aboutDiv{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+.aboutContent{
+  text-align: center;
+  padding: 5px;
+  display:flex;
+  align-items:center;
+  margin: auto;
+  justify-content:center;
+  widows: 100px;
+  height: 50px;
+  border:1px solid #000;
+}
+.container div{
+   display: inline-block;
+ }
+ .menu {
+     font-family: 'GenYoRegular';
+     background-color:#E6E6E6;
+     width: 100%;
+     height: auto;
+     position: relative;
+ }
+
+.menu .title .min_picture {
+     width: 100px;
+     border-radius: 50%;
+ }
+
+.menu ul li {
+    padding: 10px 30px;
+    transition: 0.25s;
+}
+
+.menu ul li:hover {
+    background-color: #666666;
+    color:#FFFFFF;
+}
+
+.menu ul li a:hover{
+  color:#FFFFFF;
+}
+.content {
+     width: 100vw;
+     height: 100%;
+ }
+
+  .title {
+
+     width: 100%;
+     height: 100px;
+     background: url('../../src/assets/887.jpg') no-repeat;
+     background-size:cover;
+
+ }
+
+ .title div{
+   display: inline-block;
+ }
+
+ .intro{
+   font-size: 20px;
+   margin-right:29px;
+   margin-top:25px
+ }
+.introduction{
+   font-size:15px;
+   margin-top:5px
+}
+
+
+ .menu .link{
+   width: 100%;
+   position: relative;
+   margin-top:25px;
+   left: 0;
+   bottom: 0;
+ }
+
+ .menu .link div {
+     height: 50px;
+     width: 50px;
+     display: inline-block;
+ }
+
+ .menu .link .fb {
+     background: url('../../src/assets/facebook.png') no-repeat;
+     background-size: auto 33px;
+     margin-left: 20px
+ }
+ .menu .link .fb:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/facebook.png') no-repeat;
+     background-size: auto 40px;
+}
+
+
+ .menu .link .github {
+     background: url('../../src/assets/github.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .github:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/github.png') no-repeat;
+     background-size: auto 40px;
+}
+
+ .menu .link .linkedin {
+     background: url('../../src/assets/linkedin.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .linkedin:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/linkedin.png') no-repeat;
+     background-size: auto 40px;
+}
+ .menu .link .gmail {
+     background: url('../../src/assets/gmail.png') no-repeat;
+     background-size: 33px auto;
+ }
+  .menu .link .gmail:hover {
+     width: 50px;
+     height: 50px;
+     background: url('../../src/assets/gmail.png') no-repeat;
+     background-size: auto 40px;
+}
+
+.liststyle{
+  height: 30px;
+  padding: 15px;
+  margin-top:15px;
+}
+.content{
+  font-family: 'GenYoRegular';
+}
+.content .banner {
+     width: 100%;
+     height: 200px;
+     background: url('../../src/assets/bar.jpg') center center fixed no-repeat;
+     background-size:cover;
+ }
+
+.content .banner div {
+      display: inline-block;
+ }
+.content .banner .picture .bar_picture {
+     margin-top:30px;
+     margin-left: 15px;
+     width:100px;
+     border-radius: 50%;
+ }
+
+a {
+  text-decoration: none;
+  color: #000000
+}
+
+.router-link-active {
+  text-decoration: none;
+}
+
+.contentdiv{
+  position: relative;
+  margin-left:10px;
+  padding-left:5px;
+  width: 90%;
+  height: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.contentdiv ul li {
+    padding: 30px 50px 30px ;
+    transition: 0.25s;
+}
+
+.contentdiv ul li div{
+  display: inline-block;
+}
+
+
+.company{
+   widows: 50px;
+   height: 50px;
+}
+
+.home
+{
+  width:95%;
+  height: 100vh;
+
+}
+}

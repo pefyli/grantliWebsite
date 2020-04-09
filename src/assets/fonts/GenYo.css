@@ -1,0 +1,43 @@
+@font-face {
+ font-family: 'GenYoBold';
+ src: url('GenYoGothicTW-Bold.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'GenYoEtraLight';
+ src: url('GenYoGothicTW-ExtraLight.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'GenYoHeavy';
+ src: url('GenYoGothicTW-Heavy.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'GenYoLight';
+ src: url('GenYoGothicTW-Light.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'GenYoMedium';
+ src: url('GenYoGothicTW-Medium.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'GenYoRegular';
+ src: url('GenYoGothicTW-Regular.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
