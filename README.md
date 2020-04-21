@@ -1,4 +1,7 @@
-# grantliblog
+# GrantliWebsite
+WELCOME to grant's personal website, this website was built with Vue.js, Vuex, Firebase, JavaScript by me.
+Ror instruction guideline, please refer my personal blog: https://grantliblog.wordpress.com/
+Thanks.
 
 > A Vue.js project
 [Link](https://grantli-website.netlify.com/#/)
@@ -24,7 +27,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 # Tech-Stack
 1. Vue.js
 2. JavaScript
-3. Firebase
+3. Firebase(Google Cloud Platform realtim database)
 4. Vuex
 5. Vue-router
 6. Webpack
+
+# Deploy
+This website is deployed by Netlify.
+Production version:
+https://grantli-website.netlify.com/#/
