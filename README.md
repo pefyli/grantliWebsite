@@ -1,6 +1,7 @@
 # GrantliWebsite
 WELCOME to grant's personal website, this website was built with Vue.js, Vuex, Firebase, JavaScript by me.
-Ror instruction guideline, please refer my personal blog: https://grantliblog.wordpress.com/
+
+For instruction guideline, please refer my personal blog: https://grantliblog.wordpress.com/
 Thanks.
 
 > A Vue.js project
